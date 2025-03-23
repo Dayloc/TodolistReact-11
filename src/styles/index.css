@@ -9,3 +9,80 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+/* Estilos generales */
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    font-family: 'Arial, sans-serif';
+    text-align: center;
+  }
+  
+  /* Estilos para el input */
+  .input-tarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Estilos para el botón de agregar */
+  .boton-agregar {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  .boton-agregar:hover {
+    background-color: #218838;
+  }
+  
+  /* Estilos para la lista de tareas */
+  .lista-tareas {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+  
+  /* Estilos para cada tarea (post-it) */
+  .tarea-item {
+    background-color: #fff3cd;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+  }
+  
+  /* Estilos para el botón de eliminar */
+  .boton-eliminar {
+    display: none;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .tarea-item:hover .boton-eliminar {
+    display: inline-block;
+  }
+  
+  /* Estilos para el mensaje cuando no hay tareas */
+  .mensaje-vacio {
+    text-align: center;
+    color: #888;
+    margin-top: 20px;
+  }
