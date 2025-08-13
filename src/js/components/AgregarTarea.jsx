@@ -72,6 +72,7 @@ function AgregarTarea() {
           ))}
         </ul>
       )}
+      <div>Tienes {listaTareas.length} tareas pendientes.</div>
     </div>
   );
 }
